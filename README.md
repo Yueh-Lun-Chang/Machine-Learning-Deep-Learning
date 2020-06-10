@@ -1,5 +1,5 @@
 # Machine Learning & Deep Learning | 機器學習 & 深度學習     
-
+Notes & Eamples
 ## 基本概念
 
 #### 一、專家系統 : 人類可理解的確切公式                                                           
@@ -73,6 +73,7 @@
 - step3: 打開CNN，完整微調
 
 ## Examples
+### Machine Learning 機器學習
 - [Classification](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Classification_review.ipynb)
 - [Cluster](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Cluster_review.ipynb)
 - [Regression](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Regression_review.ipynb)
@@ -80,3 +81,10 @@
 - [Naive_bayes_Poem](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Naive_bayes_Poem_review.ipynb)
 - [Randomforest_regressor_House_price](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Randomforest_regressor_House_price_review.ipynb)
 - [Randomforest_classifier_KNN_Titanic](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Randomforest_classifier_KNN_Titanic_review.ipynb)
+
+### Deep Learning 深度學習
+- [MLP_mnist](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/MLP_mnist.ipynb)
+- [MLP_fashion_mnist](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/MLP_fashion_mnist.ipynb)
+- [CNN_cifar10](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/CNN_cifar10.ipynb)
+- [Transfer_Learning_dog_cat](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Transfer_Learning_dog_cat.ipynb)
+- [NLP_Embedding](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/NLP_Embedding.ipynb)
