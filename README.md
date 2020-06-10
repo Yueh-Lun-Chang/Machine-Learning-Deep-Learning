@@ -1,6 +1,6 @@
 # Machine Learning & Deep Learning | 機器學習 & 深度學習     
 
-### 基本概念
+## 基本概念
 
 #### 一、專家系統 : 人類可理解的確切公式                                                           
 #### 二、機器學習 : 基於經驗，從輸入、輸出找出公式 ( 傳統統計 )                                       
@@ -25,7 +25,7 @@
 ##### (二) 機器學習 vs 深度學習
 ![GITHUB](https://i.imgur.com/sz6MJcI.jpg "機器學習 vs 深度學習")
 
-### 監督式學習、非監督式學習、強化學習
+## 監督式學習、非監督式學習、強化學習
 #### 一、監督式學習 ( Supervised Learning ) : 必須有標籤 ( 答案 ) * 沒有教的機器就不會                     
 - 離散: 分類 ( Classification ) 
 - 連續: 迴歸 ( Regression )
@@ -35,7 +35,7 @@
 #### 四、強化學習 ( Reinforcement Learing ) : 制約，在意"行為控制"的過程
 - 機器人、Game
 
-### Perceptron ( 感知器 )       
+## Perceptron ( 感知器 )       
 #### 活化函數 ( 激活函數，Activation Function ) : 將原來要變為線性迴歸的神經元，加入非線性的概念
 - 選擇要件: 
   * 通常計算開銷要夠小 ( 太大: log、exp、tanh)
@@ -56,11 +56,11 @@
 - 衍伸問題: 過擬合，必須採取許多措施防止 ( ex.數據增強: 樣本永遠不重複 )                  
 - 推翻此定理: resnet
 
-### CNN ( Convolutional Neural Networks，卷積神經網路)         
+## CNN ( Convolutional Neural Networks，卷積神經網路)         
 ![GITHUB](https://i.imgur.com/sz5djYr.jpg "CNN-concept")
 ![GITHUB](https://i.imgur.com/VCrpmmg.jpg "CNN")
 
-### Transfer Learning ( 遷移學習 ) 
+## Transfer Learning ( 遷移學習 ) 
 #### 使用與問題主題相關、別人已訓練好的卷積模型，再加上自己搭建的MLP。          
 - tensorflow.keras.applications裡有許多著名模型                       
 ![GITHUB](https://i.imgur.com/OrhBvi1.jpg "Transfer Learning")
@@ -71,3 +71,12 @@
 - step1: 固定CNN參數
 - step2: 訓練MLP
 - step3: 打開CNN，完整微調
+
+## Examples
+- [Classification](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Classification_review.ipynb)
+- [Cluster](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Cluster_review.ipynb)
+- [Regression](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Regression_review.ipynb)
+- [Linear_regression_House_price](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Linear_regression_House_price.ipynb)
+- [Naive_bayes_Poem](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Naive_bayes_Poem_review.ipynb)
+- [Randomforest_regressor_House_price](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Randomforest_regressor_House_price_review.ipynb)
+- [Randomforest_classifier_KNN_Titanic](https://github.com/Yueh-Lun-Chang/Machine-Learning-Deep-Learning/blob/master/Randomforest_classifier_KNN_Titanic_review.ipynb)
