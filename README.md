@@ -62,7 +62,7 @@
 
 ### Transfer Learning ( 遷移學習 ) 
 #### 使用與問題主題相關、別人已訓練好的卷積模型，再加上自己搭建的MLP。          
-- tensorflow.keras.applications裡有許多著名模型
+- tensorflow.keras.applications裡有許多著名模型                       
 ![GITHUB](https://i.imgur.com/OrhBvi1.jpg "Transfer Learning")
 #### 一、優點
 - 資料不需要太多: 因為資料主要是拿來訓練MLP，因此約百~千筆就足夠
